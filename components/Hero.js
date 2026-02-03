@@ -21,7 +21,7 @@ export default function Hero() {
               Securing the <span className="text-red-600">Future</span> of Federal Missions
             </h1>
             <p className="text-xl text-gray-300 max-w-2xl leading-relaxed">
-              CyberX Gov provides the specialized workforce and technical proposal leadership required to navigate the complexities of the Department of Defense and Intelligence Community.
+              Cognivix IT Solutions provides the specialized workforce and technical proposal leadership required to navigate the complexities of the Department of Defense and Intelligence Community.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <button className="bg-red-600 hover:bg-red-700 text-white px-10 py-4 font-black uppercase transition-all shadow-2xl">

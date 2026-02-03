@@ -9,7 +9,7 @@ export default function SuccessPage() {
         <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-6" />
         <h1 className="text-3xl font-bold text-slate-900 mb-4">Request Received</h1>
         <p className="text-gray-600 mb-8">
-          Thank you for reaching out to CyberX Gov Solutions. One of our GovCon experts will review your request and contact you within 24 hours.
+          Thank you for reaching out to Cognivix IT Solutions Solutions. One of our GovCon experts will review your request and contact you within 24 hours.
         </p>
         <Link 
           href="/" 

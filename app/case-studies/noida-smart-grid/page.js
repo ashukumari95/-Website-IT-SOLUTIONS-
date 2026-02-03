@@ -25,7 +25,7 @@ export default function CaseStudy() {
         <section className="prose prose-invert max-w-none space-y-8">
           <h2 className="text-2xl font-black text-white uppercase italic">Executive Summary</h2>
           <p className="text-lg leading-relaxed">
-            The mission involved the overhaul of legacy utility frameworks within the Noida special economic zone. CyberX Gov deployed a subterranean fiber-optic backbone integrated with automated load-balancing sensors to stabilize the regional power surge by 34%.
+            The mission involved the overhaul of legacy utility frameworks within the Noida special economic zone. Cognivix IT Solutions deployed a subterranean fiber-optic backbone integrated with automated load-balancing sensors to stabilize the regional power surge by 34%.
           </p>
           
           <h2 className="text-2xl font-black text-white uppercase italic">Technical Challenges</h2>

@@ -1,22 +1,15 @@
 import mongoose from 'mongoose';
 
+// models/Inquiry.js (Update)
 const InquirySchema = new mongoose.Schema({
-  name: {
-    type: String,
-    required: [true, 'Please provide a name.'],
+  name: String,
+  email: String,
+  serviceCategory: { 
+    type: String, 
+    enum: ['Infrastructure', 'Security', 'Development', 'Federal Support', 'AI/Data'] 
   },
-  email: {
-    type: String,
-    required: [true, 'Please provide an email.'],
-  },
-  message: {
-    type: String,
-    required: [true, 'Please provide a message.'],
-  },
-  createdAt: {
-    type: Date,
-    default: Date.now,
-  },
+  message: String,
+  createdAt: { type: Date, default: Date.now }
 });
 
 export default mongoose.models.Inquiry || mongoose.model('Inquiry', InquirySchema);

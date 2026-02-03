@@ -10,7 +10,7 @@ import Stats from '@/components/Stats';
 import Services from '@/components/Services';
 import Capabilities from '@/components/Capabilities';
 import ContactForm from '@/components/ContactForm';
-import Footer from '@/components/Footer';
+import Footer from '@/components/TechnicalFooter';
 
 function MissionSection() {
   return (
@@ -33,7 +33,7 @@ function MissionSection() {
           </h3>
           <p className="text-lg text-gray-400 leading-relaxed mb-12">
             In an era of rising cyber threats and stringent regulatory requirements, 
-            CyberX Gov ensures that prime contractors and federal agencies have access 
+            Cognivix IT Solutions ensures that prime contractors and federal agencies have access 
             to verified, cleared, and highly skilled technical talent.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm">
@@ -131,7 +131,7 @@ export default function Home() {
         <div className="container mx-auto px-6 text-center max-w-4xl">
           <h2 className="text-5xl font-black text-slate-900 mb-6 uppercase tracking-tight">Built for the Mission.</h2>
           <p className="text-gray-600 text-xl mb-12">
-            CyberX Gov is currently accepting new partnerships for FY2026/27 capture cycles. 
+            Cognivix IT Solutions is currently accepting new partnerships for FY2026/27 capture cycles. 
           </p>
           <div className="lg:max-w-2xl mx-auto bg-white p-10 shadow-2xl rounded-2xl border-t-8 border-red-600">
              <h3 className="text-3xl font-black mb-8 text-slate-900 uppercase">Secure Inquiry</h3>

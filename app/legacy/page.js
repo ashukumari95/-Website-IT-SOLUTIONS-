@@ -3,7 +3,7 @@ export default function Legacy() {
   const milestones = [
     { year: "2021", event: "Foundation in Computer Science & Engineering (Jaipur)", focus: "Systemic Logic" },
     { year: "2024", event: "Advancement to Cybersecurity & Federal Systems (NIET)", focus: "Hardened Protocols" },
-    { year: "2026", event: "CyberX Gov Strategic Operations Activation", focus: "Nation-Building" },
+    { year: "2026", event: "Cognivix IT Solutions Strategic Operations Activation", focus: "Nation-Building" },
   ];
 
   return (
@@ -21,7 +21,7 @@ export default function Legacy() {
               <h3 className="text-2xl font-black text-white uppercase mt-2">{m.event}</h3>
               <p className="text-slate-500 font-bold uppercase text-xs tracking-widest mt-1">Core Focus: {m.focus}</p>
               <p className="text-slate-400 mt-4 leading-relaxed italic max-w-xl">
-                CyberX Gov was not born in a boardroom; it was forged through years of rigorous technical study in Rajasthan and Uttar Pradesh. We apply the precision of a debugger to the scale of a city.
+                Cognivix IT Solutions was not born in a boardroom; it was forged through years of rigorous technical study in Rajasthan and Uttar Pradesh. We apply the precision of a debugger to the scale of a city.
               </p>
             </div>
           ))}

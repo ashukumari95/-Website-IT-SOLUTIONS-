@@ -15,10 +15,10 @@ export async function POST(req) {
     });
 
     await transporter.sendMail({
-      from: '"CyberX Gov Mission Control" <your-email@gmail.com>',
+      from: '"Cognivix IT Solutions Mission Control" <your-email@gmail.com>',
       to,
       subject,
-      text: `${text}\n\n---\nOfficial Federal Growth Strategy Team\nCyberX Gov HQ`,
+      text: `${text}\n\n---\nOfficial Federal Growth Strategy Team\nCognivix IT Solutions HQ`,
     });
 
     return NextResponse.json({ success: true });

@@ -1,21 +1,31 @@
 // app/layout.js
 import '@/app/globals.css';
 import { Inter } from 'next/font/google';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer.js';
+import TechnicalFooter from '@/components/TechnicalFooter';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'CyberX Gov Solutions | Federal Contracting Support',
-  description: 'Helping government contractors win, comply, and scale.',
+  title: 'Cognivix IT Solutions | Federal Infrastructure & Cybersecurity Strategy',
+  description: 'Specialized in National Infrastructure, Cloud Sovereignty, and Federal Proposal Engineering. Cognivix facilitates large-scale digital transformation for government and enterprise sectors.',
+  keywords: 'Federal IT, RFP Support, Infrastructure Strategy, Cybersecurity Compliance, Noida IT Solutions, Cognivix',
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        {/* You can add your Navbar here later to show on every page */}
+        {/* Navigation bar stays at the top of every page */}
+        <Navbar />
+        
+        {/* This renders the content of each specific page */}
         <main>{children}</main>
-        {/* You can add your Footer here */}
+        
+        {/* The double-layered footer system for professional depth */}
+        <Footer />
+        <TechnicalFooter />
       </body>
     </html>
   );

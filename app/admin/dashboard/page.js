@@ -53,7 +53,7 @@ export default function AdvancedDashboard() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           to: selectedInquiry.email,
-          subject: `Re: Inquiry from ${selectedInquiry.name} - CyberX Gov`,
+          subject: `Re: Inquiry from ${selectedInquiry.name} - Cognivix IT Solutions`,
           text: replyMessage,
         }),
       });

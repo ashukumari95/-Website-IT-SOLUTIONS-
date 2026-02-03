@@ -23,9 +23,9 @@ export async function POST(req) {
 
     // 3. Send Auto-Reply to the Client
     await transporter.sendMail({
-      from: '"CyberX Gov Mission Control" <' + process.env.EMAIL_USER + '>',
+      from: '"Cognivix IT Solutions Mission Control" <' + process.env.EMAIL_USER + '>',
       to: email,
-      subject: 'Mission Received: CyberX Gov Inquiry',
+      subject: 'Mission Received: Cognivix IT Solutions Inquiry',
       html: `
         <div style="font-family: sans-serif; max-width: 600px; border-top: 8px solid #dc2626; padding: 40px; background-color: #f9fafb;">
           <h1 style="text-transform: uppercase; letter-spacing: -1px; color: #111827;">Inquiry Secured</h1>
@@ -42,7 +42,7 @@ export async function POST(req) {
           </p>
           <hr style="border: 0; border-top: 1px solid #e5e7eb; margin: 30px 0;">
           <p style="font-size: 10px; font-weight: bold; text-transform: uppercase; color: #9ca3af;">
-            CyberX Gov HQ // Est. 2026 // Federal Growth & Strategy
+            Cognivix IT Solutions HQ // Est. 2026 // Federal Growth & Strategy
           </p>
         </div>
       `,
