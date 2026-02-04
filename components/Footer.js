@@ -21,8 +21,8 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h4 className="text-white font-black uppercase text-xs tracking-widest mb-6">Liaison</h4>
-          <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Greater Noida, UP</p>
+          <h4 className="text-white font-black uppercase text-xs tracking-widest mb-6">Address</h4>
+          <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">16 Mystic LN Malvern, Pennsylvania 19355-1942, United States</p>
           <p className="text-[10px] font-bold text-red-600 uppercase tracking-widest mt-2 underline">hq@cognivix.in</p>
         </div>
       </div>
@@ -31,12 +31,16 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 pt-10 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-6 text-[8px] font-black text-slate-600 uppercase tracking-[0.3em]">
         <div className="flex flex-col gap-2">
           <span>© 2026 Cognivix Strategic Operations</span>
+           <span className="text-slate-700">
+            Developed by <a href="####" target="_blank" className="text-red-600/50 hover:text-red-600 transition underline">Cognivix</a>
+          </span>
           <span className="text-slate-700">
             Engineered by <a href="https://github.com/UniqueThinker-Rahul" target="_blank" className="text-red-600/50 hover:text-red-600 transition underline">UniqueThinker-Rahul</a>
           </span>
           <span className="text-slate-700">
             Maintained by <a href="https://www.growthservice.in/" target="_blank" className="text-red-600/50 hover:text-red-600 transition underline">Growth Service | Professional Digital Solutions Agency</a>
           </span>
+          
         </div>
         <div className="flex items-center gap-4">
           <span className="flex items-center gap-2">

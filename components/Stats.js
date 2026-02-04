@@ -3,7 +3,8 @@ export default function Stats() {
   const stats = [
     { label: "Contract Value Supported", value: "$500M+" },
     { label: "Cleared Technical Staff", value: "250+" },
-    { label: "Years of Federal Service", value: "18+" }
+    { label: "Years of Federal Service", value: "12+" },
+    { label: "Satisfied Contractors", value: "200+" }
   ];
 
   return (
