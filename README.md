@@ -31,7 +31,7 @@ The platform requires specific environment variables to handle secure routing an
 Bash
 # General
 NEXT_PUBLIC_APP_URL=http://localhost:3000
-NEXT_PUBLIC_ENVIRONMENT=development
+NEXT_PUBLIC_ENVIRONMENT=https://www.cognivix.in/
 
 # Security (Placeholder for future Auth)
 NEXTAUTH_SECRET=your_generated_secret_here
@@ -100,6 +100,10 @@ PRs: Open a Pull Request to main with a detailed description of changes.
 Lead Developer: Rahul Kumawat
 
 Organization: Cognivix IT Solutions
+![Home Page](https://github.com/ashukumari95/-Website-IT-SOLUTIONS-/blob/main/public/website%20img%201.png)
+![Home](https://github.com/ashukumari95/-Website-IT-SOLUTIONS-/blob/main/public/website%20img%202.png)
+![Home Page](https://github.com/ashukumari95/-Website-IT-SOLUTIONS-/blob/main/public/Screenshot%202026-02-12%20135831.png)
+
 
 Projected Release: 2026
 
@@ -110,3 +114,4 @@ Bash
 git add README.md
 git commit -m "Finalized detailed README with troubleshooting and architecture"
 git push origin main
+
